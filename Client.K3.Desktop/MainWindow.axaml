@@ -1,0 +1,25 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="Client.K3.Desktop.MainWindow"
+        Title="RobotArm - K3 (samo rotate)"
+        Width="480" Height="260">
+
+	<StackPanel Margin="12" Spacing="8">
+		<TextBlock Text="RobotArm - K3 (samo rotate)" FontWeight="Bold"/>
+
+		<WrapPanel>
+			<!-- razmak među dugmadima (zamenjuje Spacing) -->
+			<WrapPanel.Styles>
+				<Style Selector="WrapPanel > Control">
+					<Setter Property="Margin" Value="6"/>
+				</Style>
+			</WrapPanel.Styles>
+
+			<Button Content="Rotate" Click="Rotate_Click"/>
+		</WrapPanel>
+
+		<Button Content="Refresh State" Click="Refresh_Click" />
+		<TextBlock x:Name="StateText"  Text="State: -" />
+		<TextBlock x:Name="StatusText" Text="Status: ready" />
+	</StackPanel>
+</Window>

@@ -1,0 +1,326 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3C7F5B9D-ABDA-49B0-97C3-F7F2E57D6291}|Server\\Server.csproj|c:\\users\\korisnik\\downloads\\robotarm_mac_win\\server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C7F5B9D-ABDA-49B0-97C3-F7F2E57D6291}|Server\\Server.csproj|solutionrelative:server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C7F5B9D-ABDA-49B0-97C3-F7F2E57D6291}|Server\\Server.csproj|c:\\users\\korisnik\\downloads\\robotarm_mac_win\\server\\appsettings.json||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{3C7F5B9D-ABDA-49B0-97C3-F7F2E57D6291}|Server\\Server.csproj|solutionrelative:server\\appsettings.json||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C7F5B9D-ABDA-49B0-97C3-F7F2E57D6291}|Server\\Server.csproj|c:\\users\\korisnik\\downloads\\robotarm_mac_win\\server\\data\\robotarmdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C7F5B9D-ABDA-49B0-97C3-F7F2E57D6291}|Server\\Server.csproj|solutionrelative:server\\data\\robotarmdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E5DE6B-DF2E-43B3-8A2B-7FEC12342F96}|Client.K2.Desktop\\Client.K2.Desktop.csproj|c:\\users\\korisnik\\downloads\\robotarm_mac_win\\client.k2.desktop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E5DE6B-DF2E-43B3-8A2B-7FEC12342F96}|Client.K2.Desktop\\Client.K2.Desktop.csproj|solutionrelative:client.k2.desktop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C7F5B9D-ABDA-49B0-97C3-F7F2E57D6291}|Server\\Server.csproj|c:\\users\\korisnik\\downloads\\robotarm_mac_win\\server\\auth\\apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C7F5B9D-ABDA-49B0-97C3-F7F2E57D6291}|Server\\Server.csproj|solutionrelative:server\\auth\\apikeymiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C7F5B9D-ABDA-49B0-97C3-F7F2E57D6291}|Server\\Server.csproj|c:\\users\\korisnik\\downloads\\robotarm_mac_win\\server\\auth\\clientsconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C7F5B9D-ABDA-49B0-97C3-F7F2E57D6291}|Server\\Server.csproj|solutionrelative:server\\auth\\clientsconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C7F5B9D-ABDA-49B0-97C3-F7F2E57D6291}|Server\\Server.csproj|c:\\users\\korisnik\\downloads\\robotarm_mac_win\\server\\services\\priorityworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C7F5B9D-ABDA-49B0-97C3-F7F2E57D6291}|Server\\Server.csproj|solutionrelative:server\\services\\priorityworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C7F5B9D-ABDA-49B0-97C3-F7F2E57D6291}|Server\\Server.csproj|c:\\users\\korisnik\\downloads\\robotarm_mac_win\\server\\data\\robotarmdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C7F5B9D-ABDA-49B0-97C3-F7F2E57D6291}|Server\\Server.csproj|solutionrelative:server\\data\\robotarmdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E8F4A91-6D5B-4F1B-94D1-8B5A3B0612FD}|Client.K3.Desktop\\Client.K3.Desktop.csproj|c:\\users\\korisnik\\downloads\\robotarm_mac_win\\client.k3.desktop\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0E8F4A91-6D5B-4F1B-94D1-8B5A3B0612FD}|Client.K3.Desktop\\Client.K3.Desktop.csproj|solutionrelative:client.k3.desktop\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E5DE6B-DF2E-43B3-8A2B-7FEC12342F96}|Client.K2.Desktop\\Client.K2.Desktop.csproj|c:\\users\\korisnik\\downloads\\robotarm_mac_win\\client.k2.desktop\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A9E5DE6B-DF2E-43B3-8A2B-7FEC12342F96}|Client.K2.Desktop\\Client.K2.Desktop.csproj|solutionrelative:client.k2.desktop\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E5DE6B-DF2E-43B3-8A2B-7FEC12342F96}|Client.K2.Desktop\\Client.K2.Desktop.csproj|c:\\users\\korisnik\\downloads\\robotarm_mac_win\\client.k2.desktop\\app.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A9E5DE6B-DF2E-43B3-8A2B-7FEC12342F96}|Client.K2.Desktop\\Client.K2.Desktop.csproj|solutionrelative:client.k2.desktop\\app.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E8F4A91-6D5B-4F1B-94D1-8B5A3B0612FD}|Client.K3.Desktop\\Client.K3.Desktop.csproj|c:\\users\\korisnik\\downloads\\robotarm_mac_win\\client.k3.desktop\\app.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{0E8F4A91-6D5B-4F1B-94D1-8B5A3B0612FD}|Client.K3.Desktop\\Client.K3.Desktop.csproj|solutionrelative:client.k3.desktop\\app.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9B4D18-7E86-4C11-B6E1-CEB0B9DCEA16}|Client.K1.Desktop\\Client.K1.Desktop.csproj|c:\\users\\korisnik\\downloads\\robotarm_mac_win\\client.k1.desktop\\app.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2A9B4D18-7E86-4C11-B6E1-CEB0B9DCEA16}|Client.K1.Desktop\\Client.K1.Desktop.csproj|solutionrelative:client.k1.desktop\\app.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0E8F4A91-6D5B-4F1B-94D1-8B5A3B0612FD}|Client.K3.Desktop\\Client.K3.Desktop.csproj|c:\\users\\korisnik\\downloads\\robotarm_mac_win\\client.k3.desktop\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0E8F4A91-6D5B-4F1B-94D1-8B5A3B0612FD}|Client.K3.Desktop\\Client.K3.Desktop.csproj|solutionrelative:client.k3.desktop\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9E5DE6B-DF2E-43B3-8A2B-7FEC12342F96}|Client.K2.Desktop\\Client.K2.Desktop.csproj|c:\\users\\korisnik\\downloads\\robotarm_mac_win\\client.k2.desktop\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9E5DE6B-DF2E-43B3-8A2B-7FEC12342F96}|Client.K2.Desktop\\Client.K2.Desktop.csproj|solutionrelative:client.k2.desktop\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9B4D18-7E86-4C11-B6E1-CEB0B9DCEA16}|Client.K1.Desktop\\Client.K1.Desktop.csproj|c:\\users\\korisnik\\downloads\\robotarm_mac_win\\client.k1.desktop\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2A9B4D18-7E86-4C11-B6E1-CEB0B9DCEA16}|Client.K1.Desktop\\Client.K1.Desktop.csproj|solutionrelative:client.k1.desktop\\appsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2A9B4D18-7E86-4C11-B6E1-CEB0B9DCEA16}|Client.K1.Desktop\\Client.K1.Desktop.csproj|c:\\users\\korisnik\\downloads\\robotarm_mac_win\\client.k1.desktop\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{2A9B4D18-7E86-4C11-B6E1-CEB0B9DCEA16}|Client.K1.Desktop\\Client.K1.Desktop.csproj|solutionrelative:client.k1.desktop\\mainwindow.axaml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3C7F5B9D-ABDA-49B0-97C3-F7F2E57D6291}|Server\\Server.csproj|c:\\users\\korisnik\\downloads\\robotarm_mac_win\\server\\domain\\armstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C7F5B9D-ABDA-49B0-97C3-F7F2E57D6291}|Server\\Server.csproj|solutionrelative:server\\domain\\armstate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApiKeyMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Server\\Auth\\ApiKeyMiddleware.cs",
+              "RelativeDocumentMoniker": "Server\\Auth\\ApiKeyMiddleware.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Server\\Auth\\ApiKeyMiddleware.cs",
+              "RelativeToolTip": "Server\\Auth\\ApiKeyMiddleware.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAADwvyAAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T17:15:31.975Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Server\\appsettings.json",
+              "RelativeDocumentMoniker": "Server\\appsettings.json",
+              "ToolTip": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Server\\appsettings.json",
+              "RelativeToolTip": "Server\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-20T16:54:19.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Server\\Program.cs",
+              "RelativeDocumentMoniker": "Server\\Program.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Server\\Program.cs",
+              "RelativeToolTip": "Server\\Program.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T16:01:43.103Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RobotArmDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Server\\Data\\RobotArmDbContextFactory.cs",
+              "RelativeDocumentMoniker": "Server\\Data\\RobotArmDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Server\\Data\\RobotArmDbContextFactory.cs",
+              "RelativeToolTip": "Server\\Data\\RobotArmDbContextFactory.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAQwBkAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T17:00:18.057Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K2.Desktop\\Program.cs",
+              "RelativeDocumentMoniker": "Client.K2.Desktop\\Program.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K2.Desktop\\Program.cs",
+              "RelativeToolTip": "Client.K2.Desktop\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T16:47:16.191Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PriorityWorker.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Server\\Services\\PriorityWorker.cs",
+              "RelativeDocumentMoniker": "Server\\Services\\PriorityWorker.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Server\\Services\\PriorityWorker.cs",
+              "RelativeToolTip": "Server\\Services\\PriorityWorker.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T16:06:21.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RobotArmDb.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Server\\Data\\RobotArmDb.cs",
+              "RelativeDocumentMoniker": "Server\\Data\\RobotArmDb.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Server\\Data\\RobotArmDb.cs",
+              "RelativeToolTip": "Server\\Data\\RobotArmDb.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T16:36:40.765Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ClientsConfig.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Server\\Auth\\ClientsConfig.cs",
+              "RelativeDocumentMoniker": "Server\\Auth\\ClientsConfig.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Server\\Auth\\ClientsConfig.cs",
+              "RelativeToolTip": "Server\\Auth\\ClientsConfig.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAADwvxoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T16:36:50.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K3.Desktop\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "Client.K3.Desktop\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K3.Desktop\\MainWindow.axaml",
+              "RelativeToolTip": "Client.K3.Desktop\\MainWindow.axaml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAkwA8AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-20T16:49:53.929Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K2.Desktop\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "Client.K2.Desktop\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K2.Desktop\\MainWindow.axaml",
+              "RelativeToolTip": "Client.K2.Desktop\\MainWindow.axaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-20T16:49:23.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "App.axaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K3.Desktop\\App.axaml",
+              "RelativeDocumentMoniker": "Client.K3.Desktop\\App.axaml",
+              "ToolTip": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K3.Desktop\\App.axaml",
+              "RelativeToolTip": "Client.K3.Desktop\\App.axaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-20T16:48:10.666Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.axaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K2.Desktop\\App.axaml",
+              "RelativeDocumentMoniker": "Client.K2.Desktop\\App.axaml",
+              "ToolTip": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K2.Desktop\\App.axaml",
+              "RelativeToolTip": "Client.K2.Desktop\\App.axaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-20T16:47:24.933Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K3.Desktop\\AppSettings.cs",
+              "RelativeDocumentMoniker": "Client.K3.Desktop\\AppSettings.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K3.Desktop\\AppSettings.cs",
+              "RelativeToolTip": "Client.K3.Desktop\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T16:47:01.921Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K2.Desktop\\AppSettings.cs",
+              "RelativeDocumentMoniker": "Client.K2.Desktop\\AppSettings.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K2.Desktop\\AppSettings.cs",
+              "RelativeToolTip": "Client.K2.Desktop\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T16:46:45.558Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "App.axaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K1.Desktop\\App.axaml",
+              "RelativeDocumentMoniker": "Client.K1.Desktop\\App.axaml",
+              "ToolTip": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K1.Desktop\\App.axaml",
+              "RelativeToolTip": "Client.K1.Desktop\\App.axaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-20T16:30:19.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MainWindow.axaml",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K1.Desktop\\MainWindow.axaml",
+              "RelativeDocumentMoniker": "Client.K1.Desktop\\MainWindow.axaml",
+              "ToolTip": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K1.Desktop\\MainWindow.axaml",
+              "RelativeToolTip": "Client.K1.Desktop\\MainWindow.axaml",
+              "ViewState": "AgIAABoAAAAAAAAAAAAnwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-10-20T16:32:07.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AppSettings.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K1.Desktop\\AppSettings.cs",
+              "RelativeDocumentMoniker": "Client.K1.Desktop\\AppSettings.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K1.Desktop\\AppSettings.cs",
+              "RelativeToolTip": "Client.K1.Desktop\\AppSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T16:14:42.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ArmState.cs",
+              "DocumentMoniker": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Server\\Domain\\ArmState.cs",
+              "RelativeDocumentMoniker": "Server\\Domain\\ArmState.cs",
+              "ToolTip": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Server\\Domain\\ArmState.cs",
+              "RelativeToolTip": "Server\\Domain\\ArmState.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-20T16:06:33.799Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

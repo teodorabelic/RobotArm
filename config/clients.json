@@ -1,0 +1,14 @@
+{
+  "K1": {
+    "apiKey": "KEY_K1_123",
+    "role": "K1"
+  },
+  "K2": {
+    "apiKey": "KEY_K2_123",
+    "role": "K2"
+  },
+  "K3": {
+    "apiKey": "KEY_K3_123",
+    "role": "K3"
+  }
+}
