@@ -8,17 +8,10 @@
 		<TextBlock Text="RobotArm - K1 (sve komande)" FontWeight="Bold"/>
 
 		<WrapPanel>
-			<!-- razmak među dugmadima (zamenjuje Spacing) -->
 			<WrapPanel.Styles>
-				<!-- VARIJANTA 1: za sve kontrole u WrapPanel-u -->
 				<Style Selector="WrapPanel > Control">
 					<Setter Property="Margin" Value="6"/>
 				</Style>
-				<!-- ili, ako želiš samo za dugmad:
-        <Style Selector="WrapPanel > Button">
-          <Setter Property="Margin" Value="6"/>
-        </Style>
-        -->
 			</WrapPanel.Styles>
 
 			<Button Content="Left"   Click="Left_Click"/>

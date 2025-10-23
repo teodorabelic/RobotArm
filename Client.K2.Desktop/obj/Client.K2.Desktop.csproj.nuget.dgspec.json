@@ -1,27 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K2.Desktop\\Client.K2.Desktop.csproj": {}
+    "/Users/aleksa/Desktop/RobotArm/Client.K2.Desktop/Client.K2.Desktop.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K2.Desktop\\Client.K2.Desktop.csproj": {
+    "/Users/aleksa/Desktop/RobotArm/Client.K2.Desktop/Client.K2.Desktop.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K2.Desktop\\Client.K2.Desktop.csproj",
+        "projectUniqueName": "/Users/aleksa/Desktop/RobotArm/Client.K2.Desktop/Client.K2.Desktop.csproj",
         "projectName": "Client.K2.Desktop",
-        "projectPath": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K2.Desktop\\Client.K2.Desktop.csproj",
-        "packagesPath": "C:\\Users\\Korisnik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Korisnik\\Downloads\\RobotArm_mac_win\\Client.K2.Desktop\\obj\\",
+        "projectPath": "/Users/aleksa/Desktop/RobotArm/Client.K2.Desktop/Client.K2.Desktop.csproj",
+        "packagesPath": "/Users/aleksa/.nuget/packages/",
+        "outputPath": "/Users/aleksa/Desktop/RobotArm/Client.K2.Desktop/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Korisnik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/aleksa/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -83,7 +81,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
