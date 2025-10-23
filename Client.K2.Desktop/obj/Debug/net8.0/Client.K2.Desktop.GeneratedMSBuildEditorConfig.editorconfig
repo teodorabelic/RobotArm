@@ -15,14 +15,14 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Client.K2.Desktop
-build_property.ProjectDir = C:\Users\Korisnik\Downloads\RobotArm_mac_win\Client.K2.Desktop\
+build_property.ProjectDir = /Users/aleksa/Desktop/RobotArm/Client.K2.Desktop/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/Korisnik/Downloads/RobotArm_mac_win/Client.K2.Desktop/App.axaml]
+[/Users/aleksa/Desktop/RobotArm/Client.K2.Desktop/App.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml
 
-[C:/Users/Korisnik/Downloads/RobotArm_mac_win/Client.K2.Desktop/MainWindow.axaml]
+[/Users/aleksa/Desktop/RobotArm/Client.K2.Desktop/MainWindow.axaml]
 build_metadata.AdditionalFiles.SourceItemGroup = AvaloniaXaml

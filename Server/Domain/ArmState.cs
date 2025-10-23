@@ -15,8 +15,8 @@ public sealed class ArmState
         {
             case Command.Left:  nx = X - 1; break;
             case Command.Right: nx = X + 1; break;
-            case Command.Up:    ny = Y - 1; break;
-            case Command.Down:  ny = Y + 1; break;
+            case Command.Up:    ny = Y - 2; break;
+            case Command.Down:  ny = Y + 2; break;
             case Command.Rotate: nr = (Rot + 90) % 360; break;
             default: return (false, "Unknown command", from, this);
         }
