@@ -30,7 +30,7 @@ var sqliteCnn = new SqliteConnectionStringBuilder
 }.ToString();
 
 // --- 2) EF Core registracija (Context + Factory na ISTI conn string) ---
-builder.Services.AddDbContext<RobotArmDb>(opt => opt.UseSqlite(sqliteCnn));
+// builder.Services.AddDbContext<RobotArmDb>(opt => opt.UseSqlite(sqliteCnn));
 builder.Services.AddDbContextFactory<RobotArmDb>(opt => opt.UseSqlite(sqliteCnn));
 
 // --- 3) ClientsConfig: takođe stabilizuj putanju ---
@@ -54,7 +54,7 @@ builder.Services.AddSwaggerGen();
 var app = builder.Build();
 
 // Ako nemaš podešen HTTPS lokalno, privremeno isključi liniju ispod:
-// app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 
 app.UseSwagger();
 app.UseSwaggerUI();
@@ -65,9 +65,15 @@ app.UseWhen(ctx => ctx.Request.Path.StartsWithSegments("/api"),
 app.MapControllers();
 
 // --- 6) MIGRIRAJ PRE starta workera (bitno za "no such table") ---
+// using (var scope = app.Services.CreateScope())
+// {
+//     var db = scope.ServiceProvider.GetRequiredService<RobotArmDb>();
+//     await db.Database.MigrateAsync();
+// }
 using (var scope = app.Services.CreateScope())
 {
-    var db = scope.ServiceProvider.GetRequiredService<RobotArmDb>();
+    var factory = scope.ServiceProvider.GetRequiredService<IDbContextFactory<RobotArmDb>>();
+    await using var db = await factory.CreateDbContextAsync();
     await db.Database.MigrateAsync();
 }
 
