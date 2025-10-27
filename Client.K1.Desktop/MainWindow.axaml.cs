@@ -12,16 +12,29 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
+
+        // default headeri, ovo je bilo dok nije bilo hmac pa sam ostavio otkud znam
         _http.DefaultRequestHeaders.Add("X-Client-Id", AppSettings.ClientId);
         _http.DefaultRequestHeaders.Add("X-API-Key", AppSettings.ApiKey);
+    }
+
+    // salje potpisani zahtev
+    private async Task<HttpResponseMessage> SendSignedAsync(HttpMethod method, string url, HttpContent? content = null)
+    {
+        var req = new HttpRequestMessage(method, url) { Content = content };
+        // hmac potpisivanje
+        await HmacSigner.SignAsync(req, AppSettings.ApiKey);
+        return await _http.SendAsync(req);
     }
 
     private async Task Send(string cmd)
     {
         try
         {
-            var res = await _http.PostAsJsonAsync($"{AppSettings.BaseUrl}/api/commands",
-                new { clientId = AppSettings.ClientId, command = cmd });
+            var url = $"{AppSettings.BaseUrl}/api/commands";
+            var payload = new { clientId = AppSettings.ClientId, command = cmd };
+            var res = await SendSignedAsync(HttpMethod.Post, url, JsonContent.Create(payload));
+
             StatusText.Text = $"Status: {(int)res.StatusCode} {res.ReasonPhrase}";
         }
         catch (System.Exception ex)
@@ -34,7 +47,11 @@ public partial class MainWindow : Window
     {
         try
         {
-            var st = await _http.GetFromJsonAsync<StateDto>($"{AppSettings.BaseUrl}/api/state");
+            var url = $"{AppSettings.BaseUrl}/api/state";
+            var res = await SendSignedAsync(HttpMethod.Get, url);
+            res.EnsureSuccessStatusCode();
+
+            var st = await res.Content.ReadFromJsonAsync<StateDto>();
             StateText.Text = $"State: X={st!.X}, Y={st.Y}, Rot={st.Rot}";
         }
         catch (System.Exception ex)

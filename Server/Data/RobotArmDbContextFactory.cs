@@ -1,5 +1,4 @@
-﻿// Server/Data/RobotArmDbContextFactory.cs
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Design;
 using Microsoft.Extensions.Configuration;
 using System.IO;
@@ -21,17 +20,7 @@ namespace Server.Data
 
             var builder = new DbContextOptionsBuilder<RobotArmDb>();
 
-            // ======= VARIJANTA 1: SQL Server =======
-            // var conn = config.GetConnectionString("DefaultConnection")
-            //           ?? "Server=localhost;Database=RobotArmDb;Trusted_Connection=True;TrustServerCertificate=True;";
-            // builder.UseSqlServer(conn);
-
-            // ======= VARIJANTA 2: PostgreSQL =======
-            // var conn = config.GetConnectionString("DefaultConnection")
-            //           ?? "Host=localhost;Database=robotarm;Username=postgres;Password=postgres";
-            // builder.UseNpgsql(conn);
-
-            // ======= VARIJANTA 3: SQLite =======
+            // sqlite
             var conn = config.GetConnectionString("DefaultConnection")
                       ?? "Data Source=robotarm.db";
             builder.UseSqlite(conn);
