@@ -12,4 +12,7 @@
     <PackageReference Include="Avalonia.Themes.Fluent" Version="11.3.7" />
     <PackageReference Include="Avalonia.Diagnostics" Version="11.0.10" Condition="'$(Configuration)'=='Debug'" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="..\HmacSigner.cs" Link="HmacSigner.cs" />
+  </ItemGroup>
 </Project>

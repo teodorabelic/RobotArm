@@ -46,13 +46,11 @@ public class PriorityWorker : BackgroundService
             };
 
             var now = DateTime.UtcNow;
-
-            // snapshot + primena komande nad deljenim stanjem – zaštiti pristup
             ArmState from, to;
             bool allowed;
             string reason;
 
-            lock (_state) // ako je _state deljen kroz više niti
+            lock (_state) // ako je _state deljen kroz vise niti
             {
                 from = new ArmState { X = _state.X, Y = _state.Y, Rot = _state.Rot };
 
@@ -66,9 +64,7 @@ public class PriorityWorker : BackgroundService
                     var (ok, why, f, t) = _state.TryApply(cmd.Command);
                     allowed = ok; reason = ok ? "" : why; from = f; to = t;
                     if (!ok)
-                    {
-                        // ako komanda nije primenjena, _state je ostao nepromenjen od TryApply
-                    }
+                    {}
                 }
             }
 
